@@ -59,7 +59,8 @@ if uploaded_file:
             fig, ax = plt.subplots(figsize=(12, 6))
             
             # Graficar barras de ventas mensuales
-            ax.bar(df_producto_grouped.index, df_producto_grouped["Unidades_vendidas"], color="lightblue", label="Ventas")
+            ax.bar(df_producto_grouped.index, df_producto_grouped["Unidades_vendidas"], color="purple", label="Ventas")
+            
             
             # Agregar línea de tendencia
             x = np.arange(len(df_producto_grouped))
