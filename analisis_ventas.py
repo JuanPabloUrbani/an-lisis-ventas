@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-## ATENCIÓN: Dirección de publicación de la aplicación url = 'https:// isbyasbdasbd/'##
+## ATENCIÓN: Dirección de publicación de la aplicación url = 'https://urbanijuanpablo.streamlit.app/'##
 
 def mostrar_informacion_alumno():
     st.header("Por favor, sube un archivo CSV para comenzar.")
